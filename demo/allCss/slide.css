@@ -1,0 +1,43 @@
+@keyframes slider {
+/*Left -> right*/
+/*0%{ right: 0;}
+10%{ right: 0;}
+20%{ right: -100%;}
+30%{ right: -100%;}
+40%{ right: -200%;}
+50%{right: -200%;}
+60%{ right: -300%;}
+70%{ right: -300%;}
+80%{ right: -400%;}
+90%{ right: -400%;}
+100%{ right: -500%;}*/
+/*Right -> left*/
+0%{ right: 0%;}
+10%{ right: 0%;}
+20%{ right: 100%;}
+30%{ right: 100%;}
+40%{ right: 200%;}
+50%{ right: 200%;}
+60%{ right: 300%;}
+70%{ right: 300%;}
+80%{ right: 400%;}
+90%{ right: 400%;}
+100%{ right:  0%;}
+}
+#slider
+{
+  overflow: hidden;
+}
+#slider figure img
+{
+  width: 20%;
+  float: right;
+  height: 70%;
+}
+#slider figure
+{
+  position: relative;
+  width: 500%;
+  margin: 0;
+  animation: 8s slider infinite;
+}

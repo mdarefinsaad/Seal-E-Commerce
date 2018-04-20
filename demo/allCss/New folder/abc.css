@@ -1,0 +1,241 @@
+body
+{
+  /*background-color: red;*/
+  background-color: #121111;
+  font-family: Helvetica;
+}
+
+
+div ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    background-color: #333;
+    border-radius: 5px;
+}
+
+.bottom
+{
+    border-radius: 15px;
+}
+div li {
+    float: left;
+    text-align: center
+}
+
+div li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px;
+    text-decoration: none;
+}
+
+div li a:hover:not(.active) {
+    background-color: white;
+    color: black;
+}
+
+div .active {
+    background-color: #4CAF52;
+}
+/*navigation Bar[sub]*/
+.areaMain li {
+    float: center;
+    display: inline;
+}
+
+.areaMain li a {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.areaMain  li a:hover {
+    background-color: #111;
+}
+/*navigation Bar[sub]*/
+ul {
+   list-style-type: none;
+   margin: 0;
+   padding: 0;
+   width: 120px;
+}
+
+.area1 li a {
+   display: block;
+   color: #000;
+   padding: 8px 16px;
+   text-decoration: none;
+}
+
+.area1 li a.active {
+   background-color: #121111;
+   color: white;
+}
+
+.area1 li a:hover:not(.active) {
+   background-color: #555;
+   color: white;
+}
+/**//**//**//**//**//**//**//**//**//**/
+.leftBx
+{
+  box-shadow:0px 1px 35px black;
+  background-color: #121111;
+  border-radius: 15px;
+  padding: -5px;
+}
+/**//**//**//**//**//**//**//**//**//**/
+.txtbx{
+
+    background: white;
+    border: 1px solid #DDD;
+    box-shadow: 0 0 5px #DDD;
+    color: #666;
+    outline: none;
+    width: 60%;
+    height: 38px;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    font-size: 20px;
+    margin: 2% 0% 0% 1%;
+    padding-left:10px;
+}
+.txtbx1{
+
+    background: white;
+    border: 1px solid #DDD;
+    box-shadow: 0 0 5px #DDD;
+    color: #666;
+    outline: none;
+    width: 10%;
+    height: 38px;
+    border-radius: 5px;
+    border-bottom-left-radius: 5px;
+    font-size: 20px;
+    margin: 2% 0% 0% 1%;
+    padding-left:10px;
+}
+
+/* Custom Button*/
+.cusBtn{
+    outline: none;
+    border: none;
+    border-radius: 6px;
+    background-color: white;
+    color : black;
+    font-size: 130%;
+    width:10%;
+    height:50px;
+    position: relative;
+    left: -4px;
+    top: -1px;
+    box-shadow: 0px 1px 15px #888888;
+    transition: width .2s,height.2s;
+}
+.cusBtn:hover
+{
+  background-color: #121111;
+  color: white;
+  width: 12%;
+  height: 50px;
+
+}
+
+.cusBtn1{
+    outline: none;
+    border: none;
+    border-radius: 6px;
+    background-color: #121111;
+    color : white;
+    font-size: 70%;
+    height:40px;
+    left: -4px;
+    top: -1px;
+    box-shadow: 0px 1px 15px #888888;
+    padding: 10px 10px 10px 10px;
+}
+
+.cusDiv1{
+  width: 55%;
+  display:inline-block;
+  padding: 6%;
+  box-shadow: 0px 1px 15px #888888;
+  border-radius: 5px;
+  background-color: white;
+}
+.cusDiv2{
+  display:inline-block;
+}
+
+.cusBtn2{
+  border-radius: 45px;
+  background-color: #121111;
+  color : white;
+  font-size: 100%;
+  width:25%;
+  height:40px;
+  position: relative;
+  box-shadow: 0px 0px 15px black;
+  padding: 7px;
+  margin: 5px;
+  outline:none;
+}
+
+.cusBtn2:hover{
+  background-color: white;
+  box-shadow: 0px 0px 10px black;
+  color: black;
+}
+
+/**/
+
+.proImg:hover{ transform: scale(1.6);}
+.proImg
+{
+
+    transition: all .2s ease-in-out;
+    position: relative;
+    top: -15px;
+    border-radius: 10px;
+    box-shadow: 1px 1px 10px black;
+}
+
+
+.proImg1:hover{ transform: scale(1.2);}
+.proImg1
+{
+  transition: all .2s ease-in-out;
+  position: relative;
+  border-radius: 12px;
+  box-shadow: 1px 1px 10px black;
+}
+.proBackg
+{
+
+    background-color: white;
+    border-radius: 10px;
+    padding: 5px 35px 5px 35px ;
+    width: 190px;
+    margin: 5px 25px 5px 25px;
+
+}
+.proBackg1
+{
+
+    background-color: white;
+    border-radius: 10px;
+    padding: 5px 35px 5px 35px ;
+    width: 70%;
+    margin: 5px 25px 5px 25px;
+
+}
+
+.srchBx
+{
+  border-radius: 0px 15px 15px 0px;
+  box-shadow: 1px 1px 35px black;
+}

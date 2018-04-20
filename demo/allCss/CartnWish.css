@@ -1,0 +1,28 @@
+.heading{
+  position: relative;
+  top : -220px;
+  right: 950px;
+  float: right;
+  font-family: Roboto thin;
+  font-size: 50px;
+  color: white;
+  text-shadow: 0px 0px 10px black;
+}
+.leftBx2
+{
+  box-shadow:0px 1px 35px black;
+  background-color: #121111;
+  border-radius: 15px;
+  padding: -5px;
+  float: right;
+}
+.proBackg1
+{
+
+    background-color: white;
+    border-radius: 10px;
+    padding: 5px 35px 5px 35px ;
+    width: 150px;
+    margin: 5px 25px 5px 25px;
+
+}
